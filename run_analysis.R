@@ -6,8 +6,8 @@ library(chron)
 tripdata_01 <- read.csv("train_tripdata_01.csv", header = FALSE, sep = ",", stringsAsFactors = FALSE, quote = "")
 tripdata_02 <- read.csv("train_tripdata_02.csv", header = FALSE, sep = ",", stringsAsFactors = FALSE, quote = "")
 train_tripdata <- dplyr::bind_rows(tripdata_01,tripdata_02)
-
 rm(tripdata_01, tripdata_02)
+head(train_tripdata, 10)
 
 #Give the variable names
 names(train_tripdata) <- c("VendorID", "pickup_time", "dropoff_time", "Passenger_count", "Trip_distance", "Pickup_longitude", "Pickup_latitude", "RateCodeID", "Store_and_fwd_flag", "Dropoff_longitude", "Dropoff_ latitude", "Payment_type", "Fare_amount", "Extra", "MTA_tax", "Improve_surcharge", "Tip_amount", "Tolls_amount", "Total_amount")
