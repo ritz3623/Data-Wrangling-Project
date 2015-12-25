@@ -11,7 +11,7 @@ Description of variables in dataset: Refer <b>"data_dictionary_trip_records_yell
 Dataset Files: Refer <b>"train_tripdata.csv"</b>
 
 
-You can find the complete analysis of data in file <b>""</b> and also check by running script <b>run_analysis.R</b> on mentioned dataset.
+You can find the complete analysis of data in file <b>"run_analysis_script_output.docx"</b> and also check by running script <b>run_analysis.R</b> on mentioned dataset.
 
 
 
