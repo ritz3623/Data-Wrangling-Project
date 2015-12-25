@@ -6,6 +6,7 @@ library(chron)
 tripdata_01 <- read.csv("train_tripdata_01.csv", header = FALSE, sep = ",", stringsAsFactors = FALSE, quote = "")
 tripdata_02 <- read.csv("train_tripdata_02.csv", header = FALSE, sep = ",", stringsAsFactors = FALSE, quote = "")
 train_tripdata <- dplyr::bind_rows(tripdata_01,tripdata_02)
+
 rm(tripdata_01, tripdata_02)
 
 #Give the variable names
